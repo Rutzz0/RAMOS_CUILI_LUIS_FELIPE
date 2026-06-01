@@ -1,0 +1,40 @@
+.navbar {
+  padding: 2rem;
+  color: var(--bs-white);
+  background: #eeeeee;
+  border-top: 0.75px solid #000;
+  border-bottom: 0.75px solid #000;
+}
+.logoTienda {
+  border-radius: 50%;
+  width: 85px;
+  box-shadow: 0px 0px 20px 0px var(--bs-gray-600);
+}
+.navbar-brand {
+  padding-right: 20px;
+}
+.navbar-nav {
+  color: var(--bs-white);
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  color: #000 !important;
+  border-radius: 20px;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+.nav-link:hover {
+  background: var(--bs-gray-200);
+  border-radius: 20px;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+.sticky-top {
+  opacity: 90%;
+}

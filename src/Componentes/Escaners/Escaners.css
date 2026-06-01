@@ -1,0 +1,38 @@
+.fondoEscaners {
+  background-color: #b3e5fc; /* celeste claro */
+  min-height: 100vh; /* ocupa toda la pantalla */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-comprar {
+  background-color: #28a745;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-comprar:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  z-index: 2;
+}
+
+.carousel {
+  position: relative;
+}
+.nombre-escaner {
+  color: #61a4eb; /* azul Bootstrap */
+  font-weight: bold;
+}
+.precio-escaner {
+  color: #dc3545; /* Rojo Bootstrap */
+  font-weight: bold;
+}
